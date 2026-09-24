@@ -1,0 +1,28 @@
+#profile-title: My Auto Proxy
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=0; expire=0
+
+# ==========================================
+# ИСТОЧНИК 1: Свежие прокси (ProxyScrape)
+# ==========================================
+https://cdn.jsdelivr.net/gh/proxyscrape/free-proxy-list@main/proxies/all/data.txt
+
+# ==========================================
+# ИСТОЧНИК 2: Только SOCKS5 прокси
+# ==========================================
+https://cdn.jsdelivr.net/gh/TheSpeedX/PROXY-List@master/socks5.txt
+
+# ==========================================
+# ИСТОЧНИК 3: Только HTTP прокси
+# ==========================================
+https://cdn.jsdelivr.net/gh/TheSpeedX/PROXY-List@master/http.txt
+
+# ==========================================
+# ИСТОЧНИК 4: VPN конфиги (VLESS/VMess)
+# ==========================================
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_LIST.txt
+
+# ==========================================
+# ИСТОЧНИК 5: Актуальные VPN ключи
+# ==========================================
+https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/v2ray.txt
