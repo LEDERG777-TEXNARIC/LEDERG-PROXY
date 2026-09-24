@@ -1,28 +1,32 @@
-#profile-title: My Auto Proxy
-#profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=0; expire=0
+name: Update Proxy List
 
-# ==========================================
-# ИСТОЧНИК 1: ProxyScrape — все протоколы (~2000+ прокси)
-# ==========================================
-https://cdn.jsdelivr.net/gh/proxyscrape/free-proxy-list@main/proxies/all/data.txt
+on:
+  schedule:
+    - cron: '0 * * * *' # Запуск каждый час
+  workflow_dispatch: # Возможность запустить вручную
 
-# ==========================================
-# ИСТОЧНИК 2: TheSpeedX — SOCKS5 (8000+ прокси)
-# ==========================================
-https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-# ==========================================
-# ИСТОЧНИК 3: TheSpeedX — HTTP прокси
-# ==========================================
-https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
 
-# ==========================================
-# ИСТОЧНИК 4: Ian-Lusule — все прокси (обновление каждые 30 мин)
-# ==========================================
-https://raw.githubusercontent.com/Ian-Lusule/Proxies/main/proxies/all_proxies.txt
+      - name: Install dependencies
+        run: pip install requests
 
-# ==========================================
-# ИСТОЧНИК 5: Thordata — только проверенные прокси
-# ==========================================
-https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/top-trusted.txt
+      - name: Build proxy list
+        run: python build_proxies.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add proxies.txt
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update proxies"
+          git push
