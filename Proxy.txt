@@ -1,32 +1,17 @@
-name: Update Proxy List
-
-on:
-  schedule:
-    - cron: '0 * * * *' # Запуск каждый час
-  workflow_dispatch: # Возможность запустить вручную
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Build proxy list
-        run: python build_proxies.py
-
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add proxies.txt
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update proxies"
-          git push
+socks5://46.150.9.111:8123#Прокси-01
+socks5://159.224.232.194:8888#Прокси-02
+socks5://176.101.220.90:8090#Прокси-03
+socks5://195.226.213.251:8888#Прокси-04
+socks5://93.171.157.249:8080#Прокси-05
+socks5://91.203.61.52:6789#Прокси-06
+socks5://176.100.60.249:80#Прокси-07
+socks5://89.19.116.161:8080#Прокси-08
+socks5://91.247.92.63:5678#Прокси-09
+socks5://185.244.158.4:3129#Прокси-10
+socks5://195.200.245.132:1080#Прокси-11
+socks5://37.52.13.164:5678#Прокси-12
+socks5://194.31.212.115:1080#Прокси-13
+socks5://193.24.30.50:37777#Прокси-14
+socks5://195.140.226.32:5678#Прокси-15
+socks5://78.26.146.16:443#Прокси-16
+socks5://91.214.31.234:8080#Прокси-17
