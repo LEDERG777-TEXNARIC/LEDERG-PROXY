@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "LEDERG UA UA-01",
+    "remarks": "LEDERG UA-01",
     "meta": {
       "serverDescription": "Free public Ukraine SOCKS5"
     },
@@ -53,7 +53,7 @@
     }
   },
   {
-    "remarks": "LEDERG UA UA-02",
+    "remarks": "LEDERG UA-02",
     "meta": {
       "serverDescription": "Free public Ukraine SOCKS5"
     },
@@ -106,7 +106,7 @@
     }
   },
   {
-    "remarks": "LEDERG UA UA-03",
+    "remarks": "LEDERG UA-03",
     "meta": {
       "serverDescription": "Free public Ukraine SOCKS5"
     },
@@ -159,7 +159,7 @@
     }
   },
   {
-    "remarks": "LEDERG UA UA-04",
+    "remarks": "LEDERG UA-04",
     "meta": {
       "serverDescription": "Free public Ukraine SOCKS5"
     },
@@ -212,7 +212,7 @@
     }
   },
   {
-    "remarks": "LEDERG UA UA-05",
+    "remarks": "LEDERG UA-05",
     "meta": {
       "serverDescription": "Free public Ukraine SOCKS5"
     },
@@ -265,7 +265,7 @@
     }
   },
   {
-    "remarks": "LEDERG UA UA-06",
+    "remarks": "LEDERG UA-06",
     "meta": {
       "serverDescription": "Free public Ukraine SOCKS5"
     },
@@ -318,7 +318,7 @@
     }
   },
   {
-    "remarks": "LEDERG UA UA-07",
+    "remarks": "LEDERG UA-07",
     "meta": {
       "serverDescription": "Free public Ukraine SOCKS5"
     },
@@ -371,7 +371,7 @@
     }
   },
   {
-    "remarks": "LEDERG UA UA-08",
+    "remarks": "LEDERG UA-08",
     "meta": {
       "serverDescription": "Free public Ukraine SOCKS5"
     },
@@ -424,7 +424,7 @@
     }
   },
   {
-    "remarks": "LEDERG UA UA-09",
+    "remarks": "LEDERG UA-09",
     "meta": {
       "serverDescription": "Free public Ukraine SOCKS5"
     },
@@ -477,7 +477,7 @@
     }
   },
   {
-    "remarks": "LEDERG UA UA-10",
+    "remarks": "LEDERG UA-10",
     "meta": {
       "serverDescription": "Free public Ukraine SOCKS5"
     },
