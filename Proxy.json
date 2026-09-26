@@ -1,11 +1,8 @@
 [
   {
-    "remarks": "LEDERG KZ-01",
+    "remarks": "LEDERG DE-01 | Limburg an der Lahn",
     "meta": {
-      "serverDescription": "Public KZ SOCKS5"
-    },
-    "log": {
-      "loglevel": "warning"
+      "serverDescription": "Public-listed SOCKS5 | OVH SAS | 979.98ms"
     },
     "inbounds": [
       {
@@ -25,8 +22,8 @@
         "settings": {
           "servers": [
             {
-              "address": "178.236.17.195",
-              "port": 1080
+              "address": "168.222.43.35",
+              "port": 8443
             }
           ],
           "version": 5
@@ -40,12 +37,9 @@
     }
   },
   {
-    "remarks": "LEDERG KZ-02",
+    "remarks": "LEDERG DE-02 | Nuremberg",
     "meta": {
-      "serverDescription": "Public KZ SOCKS5"
-    },
-    "log": {
-      "loglevel": "warning"
+      "serverDescription": "Public-listed SOCKS5 | netcup GmbH | 918.69ms"
     },
     "inbounds": [
       {
@@ -65,8 +59,8 @@
         "settings": {
           "servers": [
             {
-              "address": "178.236.16.4",
-              "port": 1080
+              "address": "152.53.183.107",
+              "port": 8081
             }
           ],
           "version": 5
@@ -80,212 +74,9 @@
     }
   },
   {
-    "remarks": "LEDERG KZ-03",
+    "remarks": "LEDERG DE-03 | Frankfurt am Main",
     "meta": {
-      "serverDescription": "Public KZ SOCKS5"
-    },
-    "log": {
-      "loglevel": "warning"
-    },
-    "inbounds": [
-      {
-        "listen": "127.0.0.1",
-        "port": 10808,
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        },
-        "tag": "socks-in"
-      }
-    ],
-    "outbounds": [
-      {
-        "protocol": "socks",
-        "settings": {
-          "servers": [
-            {
-              "address": "94.131.230.127",
-              "port": 1080
-            }
-          ],
-          "version": 5
-        },
-        "tag": "proxy"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "LEDERG KZ-04",
-    "meta": {
-      "serverDescription": "Public KZ SOCKS5"
-    },
-    "log": {
-      "loglevel": "warning"
-    },
-    "inbounds": [
-      {
-        "listen": "127.0.0.1",
-        "port": 10808,
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        },
-        "tag": "socks-in"
-      }
-    ],
-    "outbounds": [
-      {
-        "protocol": "socks",
-        "settings": {
-          "servers": [
-            {
-              "address": "213.148.6.12",
-              "port": 7777
-            }
-          ],
-          "version": 5
-        },
-        "tag": "proxy"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "LEDERG BY-05",
-    "meta": {
-      "serverDescription": "Public BY SOCKS5"
-    },
-    "log": {
-      "loglevel": "warning"
-    },
-    "inbounds": [
-      {
-        "listen": "127.0.0.1",
-        "port": 10808,
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        },
-        "tag": "socks-in"
-      }
-    ],
-    "outbounds": [
-      {
-        "protocol": "socks",
-        "settings": {
-          "servers": [
-            {
-              "address": "80.249.81.179",
-              "port": 9050
-            }
-          ],
-          "version": 5
-        },
-        "tag": "proxy"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "LEDERG DE-06",
-    "meta": {
-      "serverDescription": "Public DE SOCKS5"
-    },
-    "log": {
-      "loglevel": "warning"
-    },
-    "inbounds": [
-      {
-        "listen": "127.0.0.1",
-        "port": 10808,
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        },
-        "tag": "socks-in"
-      }
-    ],
-    "outbounds": [
-      {
-        "protocol": "socks",
-        "settings": {
-          "servers": [
-            {
-              "address": "49.13.22.249",
-              "port": 10808
-            }
-          ],
-          "version": 5
-        },
-        "tag": "proxy"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "LEDERG DE-07",
-    "meta": {
-      "serverDescription": "Public DE SOCKS5"
-    },
-    "log": {
-      "loglevel": "warning"
-    },
-    "inbounds": [
-      {
-        "listen": "127.0.0.1",
-        "port": 10808,
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        },
-        "tag": "socks-in"
-      }
-    ],
-    "outbounds": [
-      {
-        "protocol": "socks",
-        "settings": {
-          "servers": [
-            {
-              "address": "45.144.54.40",
-              "port": 1080
-            }
-          ],
-          "version": 5
-        },
-        "tag": "proxy"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "LEDERG DE-08",
-    "meta": {
-      "serverDescription": "Public DE SOCKS5"
-    },
-    "log": {
-      "loglevel": "warning"
+      "serverDescription": "Public-listed SOCKS5 | Alibaba (US) Technology Co., Ltd. | 849.59ms"
     },
     "inbounds": [
       {
@@ -320,12 +111,9 @@
     }
   },
   {
-    "remarks": "LEDERG DE-09",
+    "remarks": "LEDERG DE-04 | Frankfurt am Main",
     "meta": {
-      "serverDescription": "Public DE SOCKS5"
-    },
-    "log": {
-      "loglevel": "warning"
+      "serverDescription": "Public-listed SOCKS5 | dataforest GmbH | 22.85ms"
     },
     "inbounds": [
       {
@@ -345,8 +133,8 @@
         "settings": {
           "servers": [
             {
-              "address": "5.75.133.113",
-              "port": 10811
+              "address": "194.238.79.156",
+              "port": 1080
             }
           ],
           "version": 5
@@ -360,12 +148,9 @@
     }
   },
   {
-    "remarks": "LEDERG DE-10",
+    "remarks": "LEDERG DE-05 | Frankfurt am Main",
     "meta": {
-      "serverDescription": "Public DE SOCKS5"
-    },
-    "log": {
-      "loglevel": "warning"
+      "serverDescription": "Public-listed SOCKS5 | Hetzner Online AG | 2332.82ms"
     },
     "inbounds": [
       {
@@ -385,8 +170,193 @@
         "settings": {
           "servers": [
             {
-              "address": "95.181.160.37",
+              "address": "91.107.177.167",
+              "port": 9080
+            }
+          ],
+          "version": 5
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG DE-06 | Frankfurt am Main",
+    "meta": {
+      "serverDescription": "Public-listed SOCKS5 | Hetzner Online AG | 577.51ms"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "91.107.179.68",
+              "port": 10809
+            }
+          ],
+          "version": 5
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG DE-07 | Falkenstein",
+    "meta": {
+      "serverDescription": "Public-listed SOCKS5 | Hetzner Online GmbH | 1420.67ms"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "144.76.61.252",
               "port": 1080
+            }
+          ],
+          "version": 5
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG DE-08 | Falkenstein",
+    "meta": {
+      "serverDescription": "Public-listed SOCKS5 | Hetzner Online GmbH | 466.56ms"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "49.13.22.249",
+              "port": 10805
+            }
+          ],
+          "version": 5
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG KZ-09 | Astana",
+    "meta": {
+      "serverDescription": "Public-listed SOCKS5 | NLS ASTANA LLP | 5590.29ms"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "89.169.37.254",
+              "port": 1080
+            }
+          ],
+          "version": 5
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG BY-10 | Belarus",
+    "meta": {
+      "serverDescription": "Public-listed SOCKS5 | CLOUDVPS-AS"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "80.249.81.179",
+              "port": 9050
             }
           ],
           "version": 5
