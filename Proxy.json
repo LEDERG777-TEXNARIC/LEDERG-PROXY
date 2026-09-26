@@ -1,8 +1,11 @@
 [
   {
-    "remarks": "LEDERG UA-01",
+    "remarks": "LEDERG KZ-01",
     "meta": {
-      "serverDescription": "Public Ukraine SOCKS5"
+      "serverDescription": "Public KZ SOCKS5"
+    },
+    "log": {
+      "loglevel": "warning"
     },
     "inbounds": [
       {
@@ -13,14 +16,6 @@
           "auth": "noauth",
           "udp": true
         },
-        "sniffing": {
-          "enabled": true,
-          "destOverride": [
-            "http",
-            "tls",
-            "quic"
-          ]
-        },
         "tag": "socks-in"
       }
     ],
@@ -30,68 +25,13 @@
         "settings": {
           "servers": [
             {
-              "address": "31.42.184.146",
-              "port": 57752
-            }
-          ],
-          "version": 5
-        },
-        "tag": "proxy"
-      },
-      {
-        "protocol": "freedom",
-        "settings": {},
-        "tag": "direct"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "LEDERG UA-02",
-    "meta": {
-      "serverDescription": "Public Ukraine SOCKS5"
-    },
-    "inbounds": [
-      {
-        "listen": "127.0.0.1",
-        "port": 10808,
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        },
-        "sniffing": {
-          "enabled": true,
-          "destOverride": [
-            "http",
-            "tls",
-            "quic"
-          ]
-        },
-        "tag": "socks-in"
-      }
-    ],
-    "outbounds": [
-      {
-        "protocol": "socks",
-        "settings": {
-          "servers": [
-            {
-              "address": "195.128.18.229",
+              "address": "178.236.17.195",
               "port": 1080
             }
           ],
           "version": 5
         },
         "tag": "proxy"
-      },
-      {
-        "protocol": "freedom",
-        "settings": {},
-        "tag": "direct"
       }
     ],
     "routing": {
@@ -100,9 +40,12 @@
     }
   },
   {
-    "remarks": "LEDERG UA-03",
+    "remarks": "LEDERG KZ-02",
     "meta": {
-      "serverDescription": "Public Ukraine SOCKS5"
+      "serverDescription": "Public KZ SOCKS5"
+    },
+    "log": {
+      "loglevel": "warning"
     },
     "inbounds": [
       {
@@ -113,14 +56,6 @@
           "auth": "noauth",
           "udp": true
         },
-        "sniffing": {
-          "enabled": true,
-          "destOverride": [
-            "http",
-            "tls",
-            "quic"
-          ]
-        },
         "tag": "socks-in"
       }
     ],
@@ -130,18 +65,13 @@
         "settings": {
           "servers": [
             {
-              "address": "93.123.118.15",
+              "address": "178.236.16.4",
               "port": 1080
             }
           ],
           "version": 5
         },
         "tag": "proxy"
-      },
-      {
-        "protocol": "freedom",
-        "settings": {},
-        "tag": "direct"
       }
     ],
     "routing": {
@@ -150,9 +80,12 @@
     }
   },
   {
-    "remarks": "LEDERG UA-04",
+    "remarks": "LEDERG KZ-03",
     "meta": {
-      "serverDescription": "Public Ukraine SOCKS5"
+      "serverDescription": "Public KZ SOCKS5"
+    },
+    "log": {
+      "loglevel": "warning"
     },
     "inbounds": [
       {
@@ -163,14 +96,6 @@
           "auth": "noauth",
           "udp": true
         },
-        "sniffing": {
-          "enabled": true,
-          "destOverride": [
-            "http",
-            "tls",
-            "quic"
-          ]
-        },
         "tag": "socks-in"
       }
     ],
@@ -180,218 +105,13 @@
         "settings": {
           "servers": [
             {
-              "address": "176.37.107.86",
-              "port": 11111
-            }
-          ],
-          "version": 5
-        },
-        "tag": "proxy"
-      },
-      {
-        "protocol": "freedom",
-        "settings": {},
-        "tag": "direct"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "LEDERG UA-05",
-    "meta": {
-      "serverDescription": "Public Ukraine SOCKS5"
-    },
-    "inbounds": [
-      {
-        "listen": "127.0.0.1",
-        "port": 10808,
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        },
-        "sniffing": {
-          "enabled": true,
-          "destOverride": [
-            "http",
-            "tls",
-            "quic"
-          ]
-        },
-        "tag": "socks-in"
-      }
-    ],
-    "outbounds": [
-      {
-        "protocol": "socks",
-        "settings": {
-          "servers": [
-            {
-              "address": "212.3.127.242",
-              "port": 10801
-            }
-          ],
-          "version": 5
-        },
-        "tag": "proxy"
-      },
-      {
-        "protocol": "freedom",
-        "settings": {},
-        "tag": "direct"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "LEDERG UA-06",
-    "meta": {
-      "serverDescription": "Public Ukraine SOCKS5"
-    },
-    "inbounds": [
-      {
-        "listen": "127.0.0.1",
-        "port": 10808,
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        },
-        "sniffing": {
-          "enabled": true,
-          "destOverride": [
-            "http",
-            "tls",
-            "quic"
-          ]
-        },
-        "tag": "socks-in"
-      }
-    ],
-    "outbounds": [
-      {
-        "protocol": "socks",
-        "settings": {
-          "servers": [
-            {
-              "address": "178.150.77.204",
-              "port": 10801
-            }
-          ],
-          "version": 5
-        },
-        "tag": "proxy"
-      },
-      {
-        "protocol": "freedom",
-        "settings": {},
-        "tag": "direct"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "LEDERG UA-07",
-    "meta": {
-      "serverDescription": "Public Ukraine SOCKS5"
-    },
-    "inbounds": [
-      {
-        "listen": "127.0.0.1",
-        "port": 10808,
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        },
-        "sniffing": {
-          "enabled": true,
-          "destOverride": [
-            "http",
-            "tls",
-            "quic"
-          ]
-        },
-        "tag": "socks-in"
-      }
-    ],
-    "outbounds": [
-      {
-        "protocol": "socks",
-        "settings": {
-          "servers": [
-            {
-              "address": "194.150.233.246",
-              "port": 1058
-            }
-          ],
-          "version": 5
-        },
-        "tag": "proxy"
-      },
-      {
-        "protocol": "freedom",
-        "settings": {},
-        "tag": "direct"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "LEDERG UA-08",
-    "meta": {
-      "serverDescription": "Public Ukraine SOCKS5"
-    },
-    "inbounds": [
-      {
-        "listen": "127.0.0.1",
-        "port": 10808,
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        },
-        "sniffing": {
-          "enabled": true,
-          "destOverride": [
-            "http",
-            "tls",
-            "quic"
-          ]
-        },
-        "tag": "socks-in"
-      }
-    ],
-    "outbounds": [
-      {
-        "protocol": "socks",
-        "settings": {
-          "servers": [
-            {
-              "address": "91.224.96.93",
+              "address": "94.131.230.127",
               "port": 1080
             }
           ],
           "version": 5
         },
         "tag": "proxy"
-      },
-      {
-        "protocol": "freedom",
-        "settings": {},
-        "tag": "direct"
       }
     ],
     "routing": {
@@ -400,9 +120,12 @@
     }
   },
   {
-    "remarks": "LEDERG UA-09",
+    "remarks": "LEDERG KZ-04",
     "meta": {
-      "serverDescription": "Public Ukraine SOCKS5"
+      "serverDescription": "Public KZ SOCKS5"
+    },
+    "log": {
+      "loglevel": "warning"
     },
     "inbounds": [
       {
@@ -413,14 +136,6 @@
           "auth": "noauth",
           "udp": true
         },
-        "sniffing": {
-          "enabled": true,
-          "destOverride": [
-            "http",
-            "tls",
-            "quic"
-          ]
-        },
         "tag": "socks-in"
       }
     ],
@@ -430,18 +145,13 @@
         "settings": {
           "servers": [
             {
-              "address": "193.239.26.142",
-              "port": 9000
+              "address": "213.148.6.12",
+              "port": 7777
             }
           ],
           "version": 5
         },
         "tag": "proxy"
-      },
-      {
-        "protocol": "freedom",
-        "settings": {},
-        "tag": "direct"
       }
     ],
     "routing": {
@@ -450,9 +160,12 @@
     }
   },
   {
-    "remarks": "LEDERG UA-10",
+    "remarks": "LEDERG BY-05",
     "meta": {
-      "serverDescription": "Public Ukraine SOCKS5"
+      "serverDescription": "Public BY SOCKS5"
+    },
+    "log": {
+      "loglevel": "warning"
     },
     "inbounds": [
       {
@@ -463,13 +176,45 @@
           "auth": "noauth",
           "udp": true
         },
-        "sniffing": {
-          "enabled": true,
-          "destOverride": [
-            "http",
-            "tls",
-            "quic"
-          ]
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "80.249.81.179",
+              "port": 9050
+            }
+          ],
+          "version": 5
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG DE-06",
+    "meta": {
+      "serverDescription": "Public DE SOCKS5"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
         },
         "tag": "socks-in"
       }
@@ -480,18 +225,173 @@
         "settings": {
           "servers": [
             {
-              "address": "194.150.232.104",
-              "port": 1051
+              "address": "49.13.22.249",
+              "port": 10808
             }
           ],
           "version": 5
         },
         "tag": "proxy"
-      },
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG DE-07",
+    "meta": {
+      "serverDescription": "Public DE SOCKS5"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
       {
-        "protocol": "freedom",
-        "settings": {},
-        "tag": "direct"
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "45.144.54.40",
+              "port": 1080
+            }
+          ],
+          "version": 5
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG DE-08",
+    "meta": {
+      "serverDescription": "Public DE SOCKS5"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "47.245.165.201",
+              "port": 1080
+            }
+          ],
+          "version": 5
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG DE-09",
+    "meta": {
+      "serverDescription": "Public DE SOCKS5"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "5.75.133.113",
+              "port": 10811
+            }
+          ],
+          "version": 5
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG DE-10",
+    "meta": {
+      "serverDescription": "Public DE SOCKS5"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "95.181.160.37",
+              "port": 1080
+            }
+          ],
+          "version": 5
+        },
+        "tag": "proxy"
       }
     ],
     "routing": {
