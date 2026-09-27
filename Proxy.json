@@ -28,12 +28,24 @@
           ],
           "version": 5
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -65,12 +77,24 @@
           ],
           "version": 5
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -102,12 +126,24 @@
           ],
           "version": 5
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -139,12 +175,24 @@
           ],
           "version": 5
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -176,12 +224,24 @@
           ],
           "version": 5
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -213,12 +273,24 @@
           ],
           "version": 5
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -250,12 +322,24 @@
           ],
           "version": 5
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -287,12 +371,24 @@
           ],
           "version": 5
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -324,12 +420,24 @@
           ],
           "version": 5
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -361,12 +469,24 @@
           ],
           "version": 5
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -398,12 +518,24 @@
           ],
           "version": 5
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -435,12 +567,24 @@
           ],
           "version": 5
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -472,12 +616,24 @@
           ],
           "version": 5
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -509,12 +665,24 @@
           ],
           "version": 5
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -553,12 +721,24 @@
             }
           ]
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -597,12 +777,24 @@
             }
           ]
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -639,14 +831,32 @@
               "address": "176.111.37.5",
               "port": 39811
             }
-          ]
+          ],
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Connection": "keep-alive"
+          }
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -683,14 +893,32 @@
               "address": "176.111.37.216",
               "port": 39811
             }
-          ]
+          ],
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Connection": "keep-alive"
+          }
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -727,14 +955,32 @@
               "address": "159.224.232.194",
               "port": 8888
             }
-          ]
+          ],
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Connection": "keep-alive"
+          }
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -771,14 +1017,32 @@
               "address": "46.150.9.111",
               "port": 8123
             }
-          ]
+          ],
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Connection": "keep-alive"
+          }
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -815,14 +1079,32 @@
               "address": "31.148.207.153",
               "port": 80
             }
-          ]
+          ],
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Connection": "keep-alive"
+          }
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -859,14 +1141,32 @@
               "address": "176.101.220.90",
               "port": 8090
             }
-          ]
+          ],
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Connection": "keep-alive"
+          }
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   },
   {
@@ -903,14 +1203,32 @@
               "address": "176.103.113.252",
               "port": 80
             }
-          ]
+          ],
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Connection": "keep-alive"
+          }
         },
-        "tag": "proxy"
+        "tag": "proxy",
+        "streamSettings": {
+          "sockopt": {
+            "tcpKeepAliveIdle": 45,
+            "tcpKeepAliveInterval": 45
+          }
+        }
       }
     ],
     "routing": {
       "domainStrategy": "AsIs",
       "rules": []
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
     }
   }
 ]
