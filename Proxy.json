@@ -1,8 +1,8 @@
 [
   {
-    "remarks": "LEDERG DE-01 | Limburg an der Lahn",
+    "remarks": "LEDERG UA-01 | Ukraine",
     "meta": {
-      "serverDescription": "Public-listed SOCKS5 | OVH SAS | 979.98ms"
+      "serverDescription": "Public free SOCKS5 | 1224ms"
     },
     "inbounds": [
       {
@@ -22,8 +22,8 @@
         "settings": {
           "servers": [
             {
-              "address": "168.222.43.35",
-              "port": 8443
+              "address": "82.193.116.160",
+              "port": 21003
             }
           ],
           "version": 5
@@ -37,9 +37,9 @@
     }
   },
   {
-    "remarks": "LEDERG DE-02 | Nuremberg",
+    "remarks": "LEDERG UA-02 | Ukraine",
     "meta": {
-      "serverDescription": "Public-listed SOCKS5 | netcup GmbH | 918.69ms"
+      "serverDescription": "Public free SOCKS5 | 7781ms"
     },
     "inbounds": [
       {
@@ -59,8 +59,8 @@
         "settings": {
           "servers": [
             {
-              "address": "152.53.183.107",
-              "port": 8081
+              "address": "212.3.127.242",
+              "port": 10801
             }
           ],
           "version": 5
@@ -74,9 +74,9 @@
     }
   },
   {
-    "remarks": "LEDERG DE-03 | Frankfurt am Main",
+    "remarks": "LEDERG UA-03 | Ukraine",
     "meta": {
-      "serverDescription": "Public-listed SOCKS5 | Alibaba (US) Technology Co., Ltd. | 849.59ms"
+      "serverDescription": "Public free SOCKS5 | 262ms"
     },
     "inbounds": [
       {
@@ -96,7 +96,81 @@
         "settings": {
           "servers": [
             {
-              "address": "47.245.165.201",
+              "address": "176.37.107.86",
+              "port": 11111
+            }
+          ],
+          "version": 5
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG UA-04 | Ukraine",
+    "meta": {
+      "serverDescription": "Public free SOCKS5 | 308ms"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "185.210.85.26",
+              "port": 56981
+            }
+          ],
+          "version": 5
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG UA-05 | Ukraine",
+    "meta": {
+      "serverDescription": "Public free SOCKS5 | checked 2026-09-12"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "5.175.217.64",
               "port": 1080
             }
           ],
@@ -111,9 +185,9 @@
     }
   },
   {
-    "remarks": "LEDERG DE-04 | Frankfurt am Main",
+    "remarks": "LEDERG UA-06 | Ukraine",
     "meta": {
-      "serverDescription": "Public-listed SOCKS5 | dataforest GmbH | 22.85ms"
+      "serverDescription": "Public free SOCKS5 | checked 2026-09-12"
     },
     "inbounds": [
       {
@@ -133,7 +207,7 @@
         "settings": {
           "servers": [
             {
-              "address": "194.238.79.156",
+              "address": "5.175.217.77",
               "port": 1080
             }
           ],
@@ -148,9 +222,9 @@
     }
   },
   {
-    "remarks": "LEDERG DE-05 | Frankfurt am Main",
+    "remarks": "LEDERG UA-07 | Ukraine",
     "meta": {
-      "serverDescription": "Public-listed SOCKS5 | Hetzner Online AG | 2332.82ms"
+      "serverDescription": "Public free SOCKS5 | checked 2026-09-12"
     },
     "inbounds": [
       {
@@ -170,8 +244,8 @@
         "settings": {
           "servers": [
             {
-              "address": "91.107.177.167",
-              "port": 9080
+              "address": "91.243.195.9",
+              "port": 35860
             }
           ],
           "version": 5
@@ -185,9 +259,9 @@
     }
   },
   {
-    "remarks": "LEDERG DE-06 | Frankfurt am Main",
+    "remarks": "LEDERG UA-08 | Ukraine",
     "meta": {
-      "serverDescription": "Public-listed SOCKS5 | Hetzner Online AG | 577.51ms"
+      "serverDescription": "Public free SOCKS5 | checked 2026-09-12"
     },
     "inbounds": [
       {
@@ -207,8 +281,8 @@
         "settings": {
           "servers": [
             {
-              "address": "91.107.179.68",
-              "port": 10809
+              "address": "194.150.233.246",
+              "port": 1077
             }
           ],
           "version": 5
@@ -222,9 +296,9 @@
     }
   },
   {
-    "remarks": "LEDERG DE-07 | Falkenstein",
+    "remarks": "LEDERG UA-09 | Ukraine",
     "meta": {
-      "serverDescription": "Public-listed SOCKS5 | Hetzner Online GmbH | 1420.67ms"
+      "serverDescription": "Public free SOCKS5 | checked 2026-09-12"
     },
     "inbounds": [
       {
@@ -244,7 +318,81 @@
         "settings": {
           "servers": [
             {
-              "address": "144.76.61.252",
+              "address": "193.107.75.242",
+              "port": 33500
+            }
+          ],
+          "version": 5
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG UA-10 | Ukraine",
+    "meta": {
+      "serverDescription": "Public free SOCKS5 | checked 2026-09-12"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "37.53.90.82",
+              "port": 12542
+            }
+          ],
+          "version": 5
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG UA-11 | Ukraine",
+    "meta": {
+      "serverDescription": "Public free SOCKS5 | 0.27s / 87%"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "176.36.86.120",
               "port": 1080
             }
           ],
@@ -259,9 +407,9 @@
     }
   },
   {
-    "remarks": "LEDERG DE-08 | Falkenstein",
+    "remarks": "LEDERG UA-12 | Ukraine",
     "meta": {
-      "serverDescription": "Public-listed SOCKS5 | Hetzner Online GmbH | 466.56ms"
+      "serverDescription": "Public free SOCKS5 | 0.42s / 63%"
     },
     "inbounds": [
       {
@@ -281,8 +429,8 @@
         "settings": {
           "servers": [
             {
-              "address": "49.13.22.249",
-              "port": 10805
+              "address": "178.150.77.204",
+              "port": 10801
             }
           ],
           "version": 5
@@ -296,9 +444,9 @@
     }
   },
   {
-    "remarks": "LEDERG KZ-09 | Astana",
+    "remarks": "LEDERG UA-13 | Ukraine",
     "meta": {
-      "serverDescription": "Public-listed SOCKS5 | NLS ASTANA LLP | 5590.29ms"
+      "serverDescription": "Public free SOCKS5 | 0.84s / 63%"
     },
     "inbounds": [
       {
@@ -318,7 +466,7 @@
         "settings": {
           "servers": [
             {
-              "address": "89.169.37.254",
+              "address": "185.247.208.139",
               "port": 1080
             }
           ],
@@ -333,9 +481,9 @@
     }
   },
   {
-    "remarks": "LEDERG BY-10 | Belarus",
+    "remarks": "LEDERG UA-14 | Ukraine",
     "meta": {
-      "serverDescription": "Public-listed SOCKS5 | CLOUDVPS-AS"
+      "serverDescription": "Public free SOCKS5 | 0.38s / 60%"
     },
     "inbounds": [
       {
@@ -355,8 +503,8 @@
         "settings": {
           "servers": [
             {
-              "address": "80.249.81.179",
-              "port": 9050
+              "address": "193.24.222.150",
+              "port": 33500
             }
           ],
           "version": 5
