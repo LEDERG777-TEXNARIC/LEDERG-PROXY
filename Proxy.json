@@ -516,5 +516,401 @@
       "domainStrategy": "AsIs",
       "rules": []
     }
+  },
+  {
+    "remarks": "LEDERG FRONT-UA-01 | Luhansk",
+    "meta": {
+      "serverDescription": "Luhansk | SOCKS5 | 48h pool | 9% uptime"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "routeOnly": false
+        },
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "94.158.46.228",
+              "port": 1080
+            }
+          ]
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG FRONT-UA-02 | Starobilsk",
+    "meta": {
+      "serverDescription": "Starobilsk / Luhansk region | SOCKS5 | catalog-listed"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "routeOnly": false
+        },
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "193.239.26.142",
+              "port": 9000
+            }
+          ]
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG FRONT-UA-03 | Dobropillya",
+    "meta": {
+      "serverDescription": "Dobropillya, Donetsk region | HTTP Transparent | live source"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "routeOnly": false
+        },
+        "settings": {
+          "auth": "noauth",
+          "udp": false
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "http",
+        "settings": {
+          "servers": [
+            {
+              "address": "176.111.37.5",
+              "port": 39811
+            }
+          ]
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG FRONT-UA-04 | Dobropillya",
+    "meta": {
+      "serverDescription": "Dobropillya, Donetsk region | HTTP Transparent | 93% / ~259ms"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "routeOnly": false
+        },
+        "settings": {
+          "auth": "noauth",
+          "udp": false
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "http",
+        "settings": {
+          "servers": [
+            {
+              "address": "176.111.37.216",
+              "port": 39811
+            }
+          ]
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG UA-15 | Dnipro",
+    "meta": {
+      "serverDescription": "Ukraine | HTTP Transparent/HTTP(S) | 96% / ~1.31 Mbps"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "routeOnly": false
+        },
+        "settings": {
+          "auth": "noauth",
+          "udp": false
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "http",
+        "settings": {
+          "servers": [
+            {
+              "address": "159.224.232.194",
+              "port": 8888
+            }
+          ]
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG UA-16 | Kharkiv region",
+    "meta": {
+      "serverDescription": "Ukraine | HTTP Elite | ~193ms"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "routeOnly": false
+        },
+        "settings": {
+          "auth": "noauth",
+          "udp": false
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "http",
+        "settings": {
+          "servers": [
+            {
+              "address": "46.150.9.111",
+              "port": 8123
+            }
+          ]
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG UA-17 | Khmelnytskyi",
+    "meta": {
+      "serverDescription": "Ukraine | HTTP Elite/Anonymous | ~410ms"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "routeOnly": false
+        },
+        "settings": {
+          "auth": "noauth",
+          "udp": false
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "http",
+        "settings": {
+          "servers": [
+            {
+              "address": "31.148.207.153",
+              "port": 80
+            }
+          ]
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG UA-18 | Dnipro",
+    "meta": {
+      "serverDescription": "Ukraine | HTTP Elite/Anonymous | ~265ms"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "routeOnly": false
+        },
+        "settings": {
+          "auth": "noauth",
+          "udp": false
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "http",
+        "settings": {
+          "servers": [
+            {
+              "address": "176.101.220.90",
+              "port": 8090
+            }
+          ]
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "LEDERG UA-19 | Kharkiv",
+    "meta": {
+      "serverDescription": "Ukraine | HTTP | ~20ms"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "routeOnly": false
+        },
+        "settings": {
+          "auth": "noauth",
+          "udp": false
+        },
+        "tag": "socks-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "http",
+        "settings": {
+          "servers": [
+            {
+              "address": "176.103.113.252",
+              "port": 80
+            }
+          ]
+        },
+        "tag": "proxy"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
   }
 ]
