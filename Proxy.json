@@ -4,13 +4,6 @@
     "meta": {
       "serverDescription": "Cloudpub TCP 10412"
     },
-    "dns": {
-      "servers": [
-        "94.140.14.14",
-        "94.140.15.15"
-      ],
-      "queryStrategy": "UseIP"
-    },
     "inbounds": [
       {
         "tag": "socks-in",
