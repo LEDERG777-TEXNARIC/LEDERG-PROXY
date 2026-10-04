@@ -4,6 +4,13 @@
     "meta": {
       "serverDescription": "Cloudpub TCP 10412"
     },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ],
+      "queryStrategy": "UseIP"
+    },
     "inbounds": [
       {
         "tag": "socks-in",
@@ -13,6 +20,14 @@
         "settings": {
           "auth": "noauth",
           "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
         }
       }
     ],
