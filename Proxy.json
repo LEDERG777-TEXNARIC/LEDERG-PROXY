@@ -1,24 +1,25 @@
 [
   {
-    "remarks": "LEDERG Cloudpub TCP Proxy",
+    "remarks": "LEDERG Home SOCKS Proxy",
     "meta": {
-      "serverDescription": "LEDERG Home Server"
+      "serverDescription": "Cloudpub TCP 15227"
     },
     "inbounds": [
       {
+        "tag": "socks-in",
         "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "socks",
         "settings": {
           "auth": "noauth",
           "udp": true
-        },
-        "tag": "socks-in"
+        }
       }
     ],
     "outbounds": [
       {
-        "protocol": "http",
+        "tag": "proxy",
+        "protocol": "socks",
         "settings": {
           "servers": [
             {
@@ -26,8 +27,7 @@
               "port": 15227
             }
           ]
-        },
-        "tag": "proxy"
+        }
       }
     ],
     "routing": {
