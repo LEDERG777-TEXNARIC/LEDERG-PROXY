@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "LEDERG Home SOCKS Proxy",
+    "remarks": "LEDERG Home HTTP Proxy",
     "meta": {
       "serverDescription": "Cloudpub TCP 15227"
     },
@@ -19,7 +19,7 @@
     "outbounds": [
       {
         "tag": "proxy",
-        "protocol": "socks",
+        "protocol": "http",
         "settings": {
           "servers": [
             {
