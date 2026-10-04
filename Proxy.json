@@ -2,7 +2,7 @@
   {
     "remarks": "LEDERG Home HTTP Proxy",
     "meta": {
-      "serverDescription": "Cloudpub TCP 15227"
+      "serverDescription": "Cloudpub TCP 10412"
     },
     "inbounds": [
       {
@@ -24,7 +24,7 @@
           "servers": [
             {
               "address": "tcp.cloudpub.ru",
-              "port": 15227
+              "port": 10412
             }
           ]
         }
